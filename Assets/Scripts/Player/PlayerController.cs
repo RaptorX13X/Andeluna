@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
         inputReader.JumpEvent += OnJump;
     }
 
-    private void Update()
+    private void Update() //jezeli movement na platformie bedzie wonky - dac parent na null jezeli postac sie rusza
     {
         body.linearVelocity = new Vector2(inputReader.MovementValue.x * speed, body.linearVelocityY);
         if (inputReader.MovementValue.x > 0)
