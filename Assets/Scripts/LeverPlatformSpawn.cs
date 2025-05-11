@@ -3,7 +3,7 @@ using System.Linq;
 
 public class LeverPlatformSpawn : MonoBehaviour
 {
-    [SerializeField] private Lever[] levers;
+    [SerializeField] private LeverPlatform[] levers;
     [SerializeField] private GameObject platform;
 
     public void CheckDoor()
