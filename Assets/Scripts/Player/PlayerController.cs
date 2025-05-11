@@ -53,4 +53,10 @@ public class PlayerController : MonoBehaviour
         body.linearVelocity = new Vector2(body.linearVelocity.x, 1f * jump);
         inAir = true;
     }
+
+    public void JumpPad(float jumpPower)
+    {
+        body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower * jump);
+        inAir = true;
+    }
 }

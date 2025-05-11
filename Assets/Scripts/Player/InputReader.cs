@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 public class InputReader : MonoBehaviour, InputSystem_Actions.IPlayerActions
 {
     public event Action JumpEvent;
+    public event Action InteractEvent;
 
     public Vector2 MovementValue { get; private set; }
 
@@ -33,5 +34,11 @@ public class InputReader : MonoBehaviour, InputSystem_Actions.IPlayerActions
     {
         if(!context.performed || player.inAir) return;
         JumpEvent?.Invoke();
+    }
+
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        if(!context.performed) return;
+        InteractEvent?.Invoke();
     }
 }
