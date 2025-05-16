@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d3495d08-675c-4cfd-b759-8403a20ed68e}">
+		<property name="assetPath">
+			<value>fire loop.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>9.7197959183673461</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0ea16e7a-8bf7-450c-8834-7cba3e1b4066}</destination>
+		</relationship>
+	</object>
+</objects>
