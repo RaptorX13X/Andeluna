@@ -59,4 +59,10 @@ public class PlayerController : MonoBehaviour
         body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower * jump);
         inAir = true;
     }
+
+    public void Lift(float liftPower)
+    {
+        body.linearVelocity = new Vector2(body.linearVelocity.x, liftPower);
+        inAir = true;
+    }
 }
