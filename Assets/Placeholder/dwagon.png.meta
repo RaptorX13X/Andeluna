@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dwagon_0: -6626807167984502781
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
