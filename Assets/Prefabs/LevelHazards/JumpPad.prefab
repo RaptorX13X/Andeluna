@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2340822479074282015}
   - component: {fileID: 639135706572074354}
   - component: {fileID: 3705344960266570716}
+  - component: {fileID: 3534757744371212409}
   m_Layer: 0
   m_Name: JumpPad
   m_TagString: Untagged
@@ -148,3 +149,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 1.5
+--- !u!114 &3534757744371212409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865933454029931760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -985422892
+      Data2: 1137438888
+      Data3: 1471302823
+      Data4: 1186716746
+    Path: event:/swoosh
+  Event: 
+  EventPlayTrigger: 5
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 20
+  OverrideMaxDistance: 20
