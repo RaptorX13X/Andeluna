@@ -9,6 +9,7 @@ public class Notes : MonoBehaviour
         {
             other.TryGetComponent(out Collector collector);
             collector.AddNotes();
+            PickUpManager.Instance.PlayPickUp();
             Destroy(gameObject);
         }
     }

@@ -140,7 +140,7 @@ MonoBehaviour:
   - {fileID: -7784084421003853702}
   MinDistance: 1
   MaxDistance: 20
-  Length: 12384
+  Length: 2064
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,7 +166,7 @@ MonoBehaviour:
   - {fileID: 4769212765350492228}
   StringsBanks:
   - {fileID: 5337775266673843768}
-  cacheTime: 638844165780922254
+  cacheTime: 638844680816671107
   cacheVersion: 131624
 --- !u!114 &4179420173391305850
 MonoBehaviour:
@@ -210,10 +210,10 @@ MonoBehaviour:
   Path: FMOD/balety/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638844165780892184
+  lastModified: 638844680816635799
   FileSizes:
   - Name: Desktop
-    Value: 271936
+    Value: 272640
   Exists: 1
 --- !u!114 &5337775266673843768
 MonoBehaviour:
@@ -230,7 +230,7 @@ MonoBehaviour:
   Path: FMOD/balety/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638844165780922254
+  lastModified: 638844680816671107
   FileSizes:
   - Name: Desktop
     Value: 974

@@ -10,13 +10,13 @@ public class PlayerAudio : MonoBehaviour
     FMOD.Studio.EventInstance FootstepsSound;
     FMOD.Studio.EventInstance JumpSound;
     FMOD.Studio.EventInstance LandSound;
-    FMOD.Studio.EventInstance PickUpSound;
+    
 
 
     [SerializeField] private EventReference footstepsEvent;
     [SerializeField] private EventReference jumpEvent;
     [SerializeField] private EventReference landEvent;
-    [SerializeField] private EventReference pickUpEvent;
+    
 
     public void PlayFootsteps()
     {
@@ -67,8 +67,8 @@ public class PlayerAudio : MonoBehaviour
 
             if (levelSound == 1)
             {
-                Debug.Log("gravel land");
-                LandSound.setParameterByNameWithLabel("Surface", "gravel");
+                Debug.Log("sand land");
+                LandSound.setParameterByNameWithLabel("surface", "sand");
                 LandSound.start();
             }
            
@@ -77,49 +77,6 @@ public class PlayerAudio : MonoBehaviour
         LandSound.release();
     }
 
-    public void PlayPickUp()
-    {
-        Debug.Log("E sound");
-        PickUpSound = FMODUnity.RuntimeManager.CreateInstance(pickUpEvent);
-        PickUpSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
-        PickUpSound.setParameterByNameWithLabel("sound", "E");
-        PickUpSound.start();
-        PickUpSound.release();
-
-        Debug.Log("A sound");
-        PickUpSound = FMODUnity.RuntimeManager.CreateInstance(pickUpEvent);
-        PickUpSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
-        PickUpSound.setParameterByNameWithLabel("sound", "A");
-        PickUpSound.start();
-        PickUpSound.release();
-
-        Debug.Log("G sound");
-        PickUpSound = FMODUnity.RuntimeManager.CreateInstance(pickUpEvent);
-        PickUpSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
-        PickUpSound.setParameterByNameWithLabel("sound", "G");
-        PickUpSound.start();
-        PickUpSound.release();
-
-        Debug.Log("C sound");
-        PickUpSound = FMODUnity.RuntimeManager.CreateInstance(pickUpEvent);
-        PickUpSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
-        PickUpSound.setParameterByNameWithLabel("sound", "C");
-        PickUpSound.start();
-        PickUpSound.release();
-
-        Debug.Log("F# sound");
-        PickUpSound = FMODUnity.RuntimeManager.CreateInstance(pickUpEvent);
-        PickUpSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
-        PickUpSound.setParameterByNameWithLabel("sound", "F#");
-        PickUpSound.start();
-        PickUpSound.release();
-
-        Debug.Log("D sound");
-        PickUpSound = FMODUnity.RuntimeManager.CreateInstance(pickUpEvent);
-        PickUpSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
-        PickUpSound.setParameterByNameWithLabel("sound", "D");
-        PickUpSound.start();
-        PickUpSound.release();
-    }
+    
 }
 
