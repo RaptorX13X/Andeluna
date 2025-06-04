@@ -10,13 +10,14 @@ public class PlayerAudio : MonoBehaviour
     FMOD.Studio.EventInstance FootstepsSound;
     FMOD.Studio.EventInstance JumpSound;
     FMOD.Studio.EventInstance LandSound;
-    
+    FMOD.Studio.EventInstance InteractionSound;
+
 
 
     [SerializeField] private EventReference footstepsEvent;
     [SerializeField] private EventReference jumpEvent;
     [SerializeField] private EventReference landEvent;
-    
+    [SerializeField] private EventReference interactionEvent;
 
     public void PlayFootsteps()
     {
@@ -75,6 +76,14 @@ public class PlayerAudio : MonoBehaviour
         }
 
         LandSound.release();
+    }
+
+    public void PlayInteraction()
+    {
+       InteractionSound = FMODUnity.RuntimeManager.CreateInstance(interactionEvent);
+        InteractionSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
+        InteractionSound.start();
+        InteractionSound.release();
     }
 
     

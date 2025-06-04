@@ -246,12 +246,13 @@ MonoBehaviour:
   - {fileID: 4920122752007772073}
   - {fileID: -7169337271863563562}
   - {fileID: -3917117765853183920}
+  - {fileID: 6018139263494121198}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4769212765350492228}
   StringsBanks:
   - {fileID: 5337775266673843768}
-  cacheTime: 638845031723061223
+  cacheTime: 638846778512001837
   cacheVersion: 131624
 --- !u!114 &4179420173391305850
 MonoBehaviour:
@@ -295,10 +296,10 @@ MonoBehaviour:
   Path: FMOD/balety/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638845031723014043
+  lastModified: 638846778511951116
   FileSizes:
   - Name: Desktop
-    Value: 4813472
+    Value: 4873408
   Exists: 1
 --- !u!114 &4920122752007772073
 MonoBehaviour:
@@ -342,11 +343,38 @@ MonoBehaviour:
   Path: FMOD/balety/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638845031723061223
+  lastModified: 638846778512001837
   FileSizes:
   - Name: Desktop
-    Value: 1128
+    Value: 1170
   Exists: 1
+--- !u!114 &6018139263494121198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/interaction
+  m_EditorClassIdentifier: 
+  Path: event:/interaction
+  Guid:
+    Data1: 1083422299
+    Data2: 1278770514
+    Data3: -1416163949
+    Data4: 1133488617
+  Banks:
+  - {fileID: 4769212765350492228}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5067
 --- !u!114 &7531583472022676586
 MonoBehaviour:
   m_ObjectHideFlags: 0

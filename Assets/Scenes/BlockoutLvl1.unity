@@ -1347,6 +1347,10 @@ PrefabInstance:
       propertyPath: platform
       value: 
       objectReference: {fileID: 727150460}
+    - target: {fileID: 7237035647515542470, guid: 6f1aeca3b380ef042ab529a36b4f12b3, type: 3}
+      propertyPath: PlayerAudio
+      value: 
+      objectReference: {fileID: 822256514}
     - target: {fileID: 8800278643865621621, guid: 6f1aeca3b380ef042ab529a36b4f12b3, type: 3}
       propertyPath: m_Name
       value: PlatformLever (1)
@@ -1971,6 +1975,10 @@ PrefabInstance:
       propertyPath: door
       value: 
       objectReference: {fileID: 1248033556}
+    - target: {fileID: 993393199364177451, guid: 9f405dc23aa3e854e8abf96d959a0f74, type: 3}
+      propertyPath: PlayerAudio
+      value: 
+      objectReference: {fileID: 822256514}
     - target: {fileID: 2923256031732573434, guid: 9f405dc23aa3e854e8abf96d959a0f74, type: 3}
       propertyPath: m_Name
       value: Lever (1)
@@ -2620,6 +2628,13 @@ MonoBehaviour:
       Data3: -1645293430
       Data4: 623375708
     Path: event:/land
+  interactionEvent:
+    Guid:
+      Data1: 1083422299
+      Data2: 1278770514
+      Data3: -1416163949
+      Data4: 1133488617
+    Path: event:/interaction
 --- !u!1 &829447667
 GameObject:
   m_ObjectHideFlags: 0
@@ -7777,6 +7792,10 @@ PrefabInstance:
       propertyPath: platform
       value: 
       objectReference: {fileID: 727150460}
+    - target: {fileID: 7237035647515542470, guid: 6f1aeca3b380ef042ab529a36b4f12b3, type: 3}
+      propertyPath: PlayerAudio
+      value: 
+      objectReference: {fileID: 822256514}
     - target: {fileID: 8800278643865621621, guid: 6f1aeca3b380ef042ab529a36b4f12b3, type: 3}
       propertyPath: m_Name
       value: PlatformLever
@@ -7962,6 +7981,10 @@ PrefabInstance:
       propertyPath: moreDoors
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 993393199364177451, guid: 9f405dc23aa3e854e8abf96d959a0f74, type: 3}
+      propertyPath: PlayerAudio
+      value: 
+      objectReference: {fileID: 822256514}
     - target: {fileID: 2923256031732573434, guid: 9f405dc23aa3e854e8abf96d959a0f74, type: 3}
       propertyPath: m_Name
       value: Lever

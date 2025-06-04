@@ -4,6 +4,7 @@ public class LeverPlatform : MonoBehaviour
 {
     public bool clicked;
     [SerializeField] private LeverPlatformSpawn platform;
+    [SerializeField] PlayerAudio PlayerAudio;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -25,6 +26,7 @@ public class LeverPlatform : MonoBehaviour
     {
         if (clicked) return;
         clicked = true;
+        PlayerAudio.PlayInteraction();
         platform.CheckDoor();
     }
 }
