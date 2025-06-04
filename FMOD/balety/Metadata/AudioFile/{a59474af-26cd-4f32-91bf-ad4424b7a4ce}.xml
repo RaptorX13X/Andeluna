@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a59474af-26cd-4f32-91bf-ad4424b7a4ce}">
+		<property name="assetPath">
+			<value>pickup_powietrze/pickup_powietrze-001.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.0640000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0ea16e7a-8bf7-450c-8834-7cba3e1b4066}</destination>
+		</relationship>
+	</object>
+</objects>

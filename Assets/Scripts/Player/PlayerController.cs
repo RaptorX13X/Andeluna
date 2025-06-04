@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
     [Header("Components")] 
     [SerializeField] private InputReader inputReader;
     [SerializeField] private Rigidbody2D body;
+    [SerializeField] PlayerAudio playerAudio;
     
     [Header("Stats")] 
     [SerializeField] private float speed;
@@ -15,9 +16,12 @@ public class PlayerController : MonoBehaviour
 
     public bool inAir;
 
+    private float walkCooldown;
+
     private void Awake()
     {
         inputReader.JumpEvent += OnJump;
+        walkCooldown = 1f;
     }
 
     private void Update() //jezeli movement na platformie bedzie wonky - dac parent na null jezeli postac sie rusza
@@ -44,7 +48,26 @@ public class PlayerController : MonoBehaviour
 
         if (body.linearVelocityY == 0)
         {
+            if (inAir)
+            {
+               playerAudio.PlayLanding();
+            }
             inAir = false;
+            
+            
+        }
+
+        if (inputReader.MovementValue.x != 0)
+        {
+            if(walkCooldown > 0.01f)
+            {
+                walkCooldown -= Time.deltaTime;
+            }
+            else
+            {
+                playerAudio.PlayFootsteps();
+                walkCooldown = 1f;
+            }
         }
     }
 
@@ -52,6 +75,7 @@ public class PlayerController : MonoBehaviour
     {
         body.linearVelocity = new Vector2(body.linearVelocity.x, 1f * jump);
         inAir = true;
+        playerAudio.PlayJump();
     }
 
     public void JumpPad(float jumpPower)

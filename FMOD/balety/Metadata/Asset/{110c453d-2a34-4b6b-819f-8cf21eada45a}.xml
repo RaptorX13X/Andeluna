@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{110c453d-2a34-4b6b-819f-8cf21eada45a}">
+		<property name="assetPath">
+			<value>pickup_powietrze/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0ea16e7a-8bf7-450c-8834-7cba3e1b4066}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -6,6 +6,7 @@ public class Lever : MonoBehaviour
     [SerializeField] private LeverDoor door;
     [SerializeField] private bool moreDoors;
     [SerializeField] private LeverDoor door2;
+    [SerializeField] PlayerAudio PlayerAudio;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -27,6 +28,7 @@ public class Lever : MonoBehaviour
     {
         if (clicked) return;
         clicked = true;
+        PlayerAudio.PlayInteraction();
         door.CheckDoor();
         if (moreDoors)
         {
