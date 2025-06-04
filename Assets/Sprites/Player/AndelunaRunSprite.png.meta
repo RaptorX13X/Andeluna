@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AndelunaRunSprite_0: 6374549252856152901
+      AndelunaRunSprite_1: 3922225786698108043
+      AndelunaRunSprite_10: -1860047770620371527
+      AndelunaRunSprite_11: 8879085318898440585
+      AndelunaRunSprite_2: 1898438904919104348
+      AndelunaRunSprite_3: -8305029811504714525
+      AndelunaRunSprite_4: -1969909713945128376
+      AndelunaRunSprite_5: 3151764755945107892
+      AndelunaRunSprite_6: 6328596534166047973
+      AndelunaRunSprite_7: 5143105459899816158
+      AndelunaRunSprite_8: -338938591528164295
+      AndelunaRunSprite_9: 8323104360977483898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

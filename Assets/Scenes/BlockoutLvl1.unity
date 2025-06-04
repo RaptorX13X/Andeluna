@@ -6418,7 +6418,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6626807167984502781, guid: 4522e74df419d094c8cab12c4d89547d, type: 3}
+  m_Sprite: {fileID: -7589949601245331495, guid: e991d57d7303d7942910eeb13d3fb330, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6438,8 +6438,8 @@ Transform:
   m_GameObject: {fileID: 1753366254}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 107.57, y: 28.07, z: 0}
-  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_LocalPosition: {x: 106.231705, y: 17.274433, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -6707,10 +6707,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 1543816062085773920, guid: 2c7bc6645ba591c488c076cf41dfeae5, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1832354170558982201, guid: 2c7bc6645ba591c488c076cf41dfeae5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.6307086
@@ -6750,10 +6746,6 @@ PrefabInstance:
     - target: {fileID: 1832354170558982201, guid: 2c7bc6645ba591c488c076cf41dfeae5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5113715711730314708, guid: 2c7bc6645ba591c488c076cf41dfeae5, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
