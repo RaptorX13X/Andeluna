@@ -7,12 +7,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private InputReader inputReader;
     [SerializeField] private Rigidbody2D body;
     [SerializeField] PlayerAudio playerAudio;
+    [SerializeField] private Animator animator;
     
     [Header("Stats")] 
     [SerializeField] private float speed;
     [SerializeField] private float jump;
     [SerializeField] private float fallMultiplier;
     [SerializeField] private float jumpMultiplier;
+    [SerializeField] private float scaleSize;
 
     public bool inAir;
 
@@ -29,14 +31,20 @@ public class PlayerController : MonoBehaviour
         body.linearVelocity = new Vector2(inputReader.MovementValue.x * speed, body.linearVelocityY);
         if (inputReader.MovementValue.x > 0)
         {
-            transform.localScale = new Vector3(1, 1, 1);
+            transform.localScale = new Vector3(scaleSize, scaleSize, scaleSize);
+            animator.SetBool("Run", true);
         }
 
         if (inputReader.MovementValue.x < 0)
         {
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(-scaleSize, scaleSize, scaleSize);
+            animator.SetBool("Run", true);
         }
-        
+
+        if (inputReader.MovementValue.x == 0)
+        {
+            animator.SetBool("Run", false);
+        }
         if (body.linearVelocityY < 0)
         {
             body.linearVelocity += Vector2.up * (Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime);
