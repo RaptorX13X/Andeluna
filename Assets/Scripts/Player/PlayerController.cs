@@ -1,4 +1,5 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -8,6 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody2D body;
     [SerializeField] PlayerAudio playerAudio;
     [SerializeField] private Animator animator;
+    [SerializeField] private GroundDetector groundDetector;
     
     [Header("Stats")] 
     [SerializeField] private float speed;
@@ -15,7 +17,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float fallMultiplier;
     [SerializeField] private float jumpMultiplier;
     [SerializeField] private float scaleSize;
-
+    
     public bool inAir;
 
     private float walkCooldown;
@@ -54,15 +56,13 @@ public class PlayerController : MonoBehaviour
             body.linearVelocity += new Vector2 (body.linearVelocityX, (Physics2D.gravity.y * (jumpMultiplier - 1) * Time.deltaTime));
         }
 
-        if (body.linearVelocityY == 0)
+        if (body.linearVelocityY == 0 && groundDetector.grounded)
         {
             if (inAir)
             {
                playerAudio.PlayLanding();
             }
             inAir = false;
-            
-            
         }
 
         if (inputReader.MovementValue.x != 0)
