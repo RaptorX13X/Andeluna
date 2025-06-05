@@ -107,11 +107,12 @@ GameObject:
   - component: {fileID: 7620293817998490238}
   - component: {fileID: 6329731897288063584}
   - component: {fileID: 2394240964794935147}
+  - component: {fileID: 7779916815209107734}
   - component: {fileID: 1133536136454920689}
   - component: {fileID: 1107688824071446663}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -203,6 +204,19 @@ MonoBehaviour:
   points:
   - {fileID: 2667732990053034036}
   - {fileID: 2589004697254301775}
+--- !u!114 &7779916815209107734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7874661386838301905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7485450ddaba43160b408785aff8a471, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collider: {fileID: 1107688824071446663}
 --- !u!50 &1133536136454920689
 Rigidbody2D:
   serializedVersion: 5

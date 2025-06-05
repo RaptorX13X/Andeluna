@@ -21,11 +21,14 @@ public class PlayerController : MonoBehaviour
     public bool inAir;
 
     private float walkCooldown;
+    
+    public static PlayerController instance;
 
     private void Awake()
     {
         inputReader.JumpEvent += OnJump;
         walkCooldown = 1f;
+        instance = this;
     }
 
     private void Update() //jezeli movement na platformie bedzie wonky - dac parent na null jezeli postac sie rusza
