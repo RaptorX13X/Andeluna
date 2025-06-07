@@ -37,26 +37,44 @@ public class PlayerController : MonoBehaviour
         if (inputReader.MovementValue.x > 0)
         {
             transform.localScale = new Vector3(scaleSize, scaleSize, scaleSize);
-            animator.SetBool("Run", true);
+            if (!inAir)
+            {
+                animator.SetBool("Run", true);
+            }
         }
 
         if (inputReader.MovementValue.x < 0)
         {
             transform.localScale = new Vector3(-scaleSize, scaleSize, scaleSize);
-            animator.SetBool("Run", true);
+            if (!inAir)
+            {
+                animator.SetBool("Run", true);
+            }
         }
 
         if (inputReader.MovementValue.x == 0)
         {
-            animator.SetBool("Run", false);
+            if (!inAir)
+            {
+                animator.SetBool("Run", false);
+            }
         }
         if (body.linearVelocityY < 0)
         {
             body.linearVelocity += Vector2.up * (Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime);
+            inAir = true;
+            animator.SetBool("Fall", true);
+            animator.SetBool("Rise", false);
+            animator.SetBool("Run", false);
         }
         else if (body.linearVelocityY > 0)
         {
             body.linearVelocity += new Vector2 (body.linearVelocityX, (Physics2D.gravity.y * (jumpMultiplier - 1) * Time.deltaTime));
+            inAir = true;
+            animator.SetBool("Rise", true);
+            animator.SetBool("Fall", false);
+            animator.SetBool("Run", false);
+            
         }
 
         if (body.linearVelocityY == 0 && groundDetector.grounded)
@@ -64,11 +82,14 @@ public class PlayerController : MonoBehaviour
             if (inAir)
             {
                playerAudio.PlayLanding();
+               animator.SetBool("Rise", false);
+               animator.SetBool("Fall", false);
+               animator.SetTrigger("Land");
             }
             inAir = false;
         }
 
-        if (inputReader.MovementValue.x != 0)
+        /*if (inputReader.MovementValue.x != 0)
         {
             if(walkCooldown > 0.01f)
             {
@@ -79,11 +100,12 @@ public class PlayerController : MonoBehaviour
                 playerAudio.PlayFootsteps();
                 walkCooldown = 1f;
             }
-        }
+        }*/
     }
 
     private void OnJump()
     {
+        animator.SetTrigger("Jump");
         body.linearVelocity = new Vector2(body.linearVelocity.x, 1f * jump);
         inAir = true;
         playerAudio.PlayJump();
