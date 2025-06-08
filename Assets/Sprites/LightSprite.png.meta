@@ -1,0 +1,378 @@
+fileFormatVersion: 2
+guid: d606fbe6f7f6e684a9954a51ebb4ab31
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1613938416608107801
+    second: LightSprite_0
+  - first:
+      213: -6444663263551439910
+    second: LightSprite_1
+  - first:
+      213: 7613857965732142635
+    second: LightSprite_2
+  - first:
+      213: 4239493862575121792
+    second: LightSprite_3
+  - first:
+      213: 5814990862010844598
+    second: LightSprite_4
+  - first:
+      213: -8459000895191539121
+    second: LightSprite_5
+  - first:
+      213: 4859367383355448048
+    second: LightSprite_6
+  - first:
+      213: 8591502928751880243
+    second: LightSprite_7
+  - first:
+      213: -8754474349420315891
+    second: LightSprite_8
+  - first:
+      213: -3416763628576077296
+    second: LightSprite_9
+  - first:
+      213: 7212004134300465924
+    second: LightSprite_10
+  - first:
+      213: -880450972786308974
+    second: LightSprite_11
+  - first:
+      213: -4748991011535718871
+    second: LightSprite_12
+  - first:
+      213: -1313162821372627199
+    second: LightSprite_13
+  - first:
+      213: 1656055124806544247
+    second: LightSprite_14
+  - first:
+      213: -1719009178710640288
+    second: LightSprite_15
+  - first:
+      213: 784718786683882838
+    second: LightSprite_16
+  - first:
+      213: -2541436731262928023
+    second: LightSprite_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LightSprite_3
+      rect:
+        serializedVersion: 2
+        x: 8395
+        y: 1889
+        width: 1240
+        height: 1240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b58c4e316ff2b050800000000000000
+      internalID: 5814990862010844598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSprite_2.4
+      rect:
+        serializedVersion: 2
+        x: 6222
+        y: 169
+        width: 1940
+        height: 1600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a8f3525973590d0800000000000000
+      internalID: -3416763628576077296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSprite_1.4
+      rect:
+        serializedVersion: 2
+        x: 6228
+        y: 1764
+        width: 1940
+        height: 1536
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2f1a372ecede24b96d701c63c492ff
+      internalID: -2068379736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSprite_2.3
+      rect:
+        serializedVersion: 2
+        x: 4175
+        y: 169
+        width: 1940
+        height: 1600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5fd9c32d086224a8cd0533b4b8e3ec
+      internalID: 607567902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSprite_2.2
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 181
+        width: 1940
+        height: 1600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277ca2224c9f9964c9899d3902a51171
+      internalID: -1181104638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSprite_2.1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 1940
+        height: 1600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3080d69eb07682c4387497566a18ad5c
+      internalID: -1427724779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSprite_1.3
+      rect:
+        serializedVersion: 2
+        x: 4181
+        y: 1764
+        width: 1940
+        height: 1536
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ea50284295f0c498417e2d80921cab
+      internalID: -218267209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSprite_1.2
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 1764
+        width: 1940
+        height: 1536
+      alignment: 9
+      pivot: {x: 0.49698573, y: 0.47715664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f487df3c3a4f2f4d9afc93924b98bc7
+      internalID: -1285651003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSprite_1.1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1764
+        width: 1940
+        height: 1536
+      alignment: 9
+      pivot: {x: 0.49698573, y: 0.47715664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22347a6b0f7b3bb44ae7bba424c9c44c
+      internalID: 827339372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 058e4e43145399f47a9e57da93b30b3e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LightSprite_1.1: 827339372
+      LightSprite_1.2: -1285651003
+      LightSprite_1.3: -218267209
+      LightSprite_1.4: -2068379736
+      LightSprite_2.1: -1427724779
+      LightSprite_2.2: -1181104638
+      LightSprite_2.3: 607567902
+      LightSprite_2.4: -3416763628576077296
+      LightSprite_3: 5814990862010844598
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
