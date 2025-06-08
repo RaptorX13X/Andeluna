@@ -1,34 +1,61 @@
 fileFormatVersion: 2
-guid: 2dac861e169ea5fa8acd37cfc501455f
+guid: d606fbe6f7f6e684a9954a51ebb4ab31
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8016327936954521382
-    second: AndelunaJumpSprite_0
+      213: -1613938416608107801
+    second: LightSprite_0
   - first:
-      213: -6995064804868265003
-    second: AndelunaJumpSprite_1
+      213: -6444663263551439910
+    second: LightSprite_1
   - first:
-      213: -7438621004086523661
-    second: AndelunaJumpSprite_2
+      213: 7613857965732142635
+    second: LightSprite_2
   - first:
-      213: 3112107353392595674
-    second: AndelunaJumpSprite_3
+      213: 4239493862575121792
+    second: LightSprite_3
   - first:
-      213: 6822543651189324239
-    second: AndelunaJumpSprite_4
+      213: 5814990862010844598
+    second: LightSprite_4
   - first:
-      213: 4737132913943794252
-    second: AndelunaJumpSprite_5
+      213: -8459000895191539121
+    second: LightSprite_5
   - first:
-      213: 3128868792700179049
-    second: AndelunaJumpSprite_6
+      213: 4859367383355448048
+    second: LightSprite_6
   - first:
-      213: -6649082125097767458
-    second: AndelunaJumpSprite_7
+      213: 8591502928751880243
+    second: LightSprite_7
   - first:
-      213: 6012340894561187922
-    second: AndelunaJumpSprite_8
+      213: -8754474349420315891
+    second: LightSprite_8
+  - first:
+      213: -3416763628576077296
+    second: LightSprite_9
+  - first:
+      213: 7212004134300465924
+    second: LightSprite_10
+  - first:
+      213: -880450972786308974
+    second: LightSprite_11
+  - first:
+      213: -4748991011535718871
+    second: LightSprite_12
+  - first:
+      213: -1313162821372627199
+    second: LightSprite_13
+  - first:
+      213: 1656055124806544247
+    second: LightSprite_14
+  - first:
+      213: -1719009178710640288
+    second: LightSprite_15
+  - first:
+      213: 784718786683882838
+    second: LightSprite_16
+  - first:
+      213: -2541436731262928023
+    second: LightSprite_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -124,199 +151,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AndelunaJumpSprite_0
+      name: LightSprite_3
       rect:
         serializedVersion: 2
-        x: 287
-        y: 6539
-        width: 1151
-        height: 1614
+        x: 8395
+        y: 1889
+        width: 1240
+        height: 1240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 627d63d49c7bf3f60800000000000000
-      internalID: 8016327936954521382
+      spriteID: 6b58c4e316ff2b050800000000000000
+      internalID: 5814990862010844598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AndelunaJumpSprite_1
+      name: LightSprite_2.4
       rect:
         serializedVersion: 2
-        x: 2359
-        y: 6539
-        width: 1159
-        height: 1182
+        x: 6222
+        y: 169
+        width: 1940
+        height: 1600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5db6df41f998cee90800000000000000
-      internalID: -6995064804868265003
+      spriteID: 01a8f3525973590d0800000000000000
+      internalID: -3416763628576077296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AndelunaJumpSprite_2
+      name: LightSprite_1.4
       rect:
         serializedVersion: 2
-        x: 555
-        y: 4340
-        width: 912
-        height: 1696
+        x: 6228
+        y: 1764
+        width: 1940
+        height: 1536
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3f8c9a8bb95b4c890800000000000000
-      internalID: -7438621004086523661
+      spriteID: fa2f1a372ecede24b96d701c63c492ff
+      internalID: -2068379736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AndelunaJumpSprite_3
+      name: LightSprite_2.3
       rect:
         serializedVersion: 2
-        x: 2523
-        y: 4382
-        width: 854
-        height: 1623
+        x: 4175
+        y: 169
+        width: 1940
+        height: 1600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ad2c8d5362d603b20800000000000000
-      internalID: 3112107353392595674
+      spriteID: 1b5fd9c32d086224a8cd0533b4b8e3ec
+      internalID: 607567902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AndelunaJumpSprite_4
+      name: LightSprite_2.2
       rect:
         serializedVersion: 2
-        x: 420
-        y: 2355
-        width: 1196
-        height: 1339
+        x: 2069
+        y: 181
+        width: 1940
+        height: 1600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc97cb9ad4b8eae50800000000000000
-      internalID: 6822543651189324239
+      spriteID: 277ca2224c9f9964c9899d3902a51171
+      internalID: -1181104638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AndelunaJumpSprite_5
+      name: LightSprite_2.1
       rect:
         serializedVersion: 2
-        x: 2374
-        y: 2352
-        width: 1126
-        height: 1326
+        x: 0
+        y: 193
+        width: 1940
+        height: 1600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c425e6d694dadb140800000000000000
-      internalID: 4737132913943794252
+      spriteID: 3080d69eb07682c4387497566a18ad5c
+      internalID: -1427724779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AndelunaJumpSprite_6
+      name: LightSprite_1.3
       rect:
         serializedVersion: 2
-        x: 474
-        y: 233
-        width: 1070
-        height: 1589
+        x: 4181
+        y: 1764
+        width: 1940
+        height: 1536
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 96213b9e699fb6b20800000000000000
-      internalID: 3128868792700179049
+      spriteID: 61ea50284295f0c498417e2d80921cab
+      internalID: -218267209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AndelunaJumpSprite_7
+      name: LightSprite_1.2
       rect:
         serializedVersion: 2
-        x: 2391
-        y: 265
-        width: 1183
-        height: 916
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2087
+        y: 1764
+        width: 1940
+        height: 1536
+      alignment: 9
+      pivot: {x: 0.49698573, y: 0.47715664}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: edde52b1907b9b3a0800000000000000
-      internalID: -6649082125097767458
+      spriteID: 2f487df3c3a4f2f4d9afc93924b98bc7
+      internalID: -1285651003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AndelunaJumpSprite_8
+      name: LightSprite_1.1
       rect:
         serializedVersion: 2
-        x: 4543
-        y: 280
-        width: 966
-        height: 1260
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1764
+        width: 1940
+        height: 1536
+      alignment: 9
+      pivot: {x: 0.49698573, y: 0.47715664}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 258bfd85030207350800000000000000
-      internalID: 6012340894561187922
+      spriteID: 22347a6b0f7b3bb44ae7bba424c9c44c
+      internalID: 827339372
       vertices: []
       indices: 
       edges: []
@@ -325,7 +352,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 058e4e43145399f47a9e57da93b30b3e
     internalID: 0
     vertices: []
     indices: 
@@ -335,15 +362,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AndelunaJumpSprite_0: 8016327936954521382
-      AndelunaJumpSprite_1: -6995064804868265003
-      AndelunaJumpSprite_2: -7438621004086523661
-      AndelunaJumpSprite_3: 3112107353392595674
-      AndelunaJumpSprite_4: 6822543651189324239
-      AndelunaJumpSprite_5: 4737132913943794252
-      AndelunaJumpSprite_6: 3128868792700179049
-      AndelunaJumpSprite_7: -6649082125097767458
-      AndelunaJumpSprite_8: 6012340894561187922
+      LightSprite_1.1: 827339372
+      LightSprite_1.2: -1285651003
+      LightSprite_1.3: -218267209
+      LightSprite_1.4: -2068379736
+      LightSprite_2.1: -1427724779
+      LightSprite_2.2: -1181104638
+      LightSprite_2.3: 607567902
+      LightSprite_2.4: -3416763628576077296
+      LightSprite_3: 5814990862010844598
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
