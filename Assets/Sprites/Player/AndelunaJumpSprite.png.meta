@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AndelunaJumpSprite_0: 8016327936954521382
+      AndelunaJumpSprite_1: -6995064804868265003
+      AndelunaJumpSprite_2: -7438621004086523661
+      AndelunaJumpSprite_3: 3112107353392595674
+      AndelunaJumpSprite_4: 6822543651189324239
+      AndelunaJumpSprite_5: 4737132913943794252
+      AndelunaJumpSprite_6: 3128868792700179049
+      AndelunaJumpSprite_7: -6649082125097767458
+      AndelunaJumpSprite_8: 6012340894561187922
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
