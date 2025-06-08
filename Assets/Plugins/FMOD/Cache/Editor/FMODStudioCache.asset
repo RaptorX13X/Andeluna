@@ -252,7 +252,7 @@ MonoBehaviour:
   - {fileID: 4769212765350492228}
   StringsBanks:
   - {fileID: 5337775266673843768}
-  cacheTime: 638846795394494377
+  cacheTime: 638847398823018982
   cacheVersion: 131624
 --- !u!114 &4179420173391305850
 MonoBehaviour:
@@ -296,7 +296,7 @@ MonoBehaviour:
   Path: FMOD/balety/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638846795394494377
+  lastModified: 638847398823018982
   FileSizes:
   - Name: Desktop
     Value: 4873408
@@ -343,7 +343,7 @@ MonoBehaviour:
   Path: FMOD/balety/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638846795394494377
+  lastModified: 638847398823018982
   FileSizes:
   - Name: Desktop
     Value: 1170
